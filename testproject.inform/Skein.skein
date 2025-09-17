@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-1">
+    <command xml:space="preserve">testproject</command>
+    <result xml:space="preserve">testproject&#x000A;An Interactive Fiction by Julia Wychryst&#x000A;Release 1 / Serial number 250903 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Library&#x000A;A room full of books meant to expand one's knowledge. A hidden door lies to the north. A downstairs hallway lies to the west.&#x000A;&#x000A;You can see Ledger here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-7"/>
+      <child nodeId="node-10"/>
+      <child nodeId="node-14"/>
+      <child nodeId="node-25"/>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">hop</command>
+    <result xml:space="preserve">You jump on the spot.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Bookcase Door&#x000A;You find a door that leads to the kitchen, though why the two connect you aren't sure.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Kitchen&#x000A;A lovely kitchen filled with windows, allowing for a grand view of the estate's gardens.&#x000A;&#x000A;You can see Chef Hat here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">wear chef hat</command>
+    <result xml:space="preserve">(first taking Chef Hat)&#x000A;You put on Chef Hat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">read ledger</command>
+    <result xml:space="preserve">You see nothing special about Ledger.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Bookcase Door&#x000A;You find a door that leads to the kitchen, though why the two connect you aren't sure.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Kitchen&#x000A;A lovely kitchen filled with windows, allowing for a grand view of the estate's gardens.&#x000A;&#x000A;You can see Chef Hat here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">wear chef hat</command>
+    <result xml:space="preserve">(first taking Chef Hat)&#x000A;You can't wear that!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Downstairs Hallway&#x000A;The space that connects the many rooms of the house to each other.&#x000A;&#x000A;You can see Shelf (on which is Vase (in which is Key)) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Grand Staircase&#x000A;You can only go up from here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Downstairs Hallway&#x000A;The space that connects the many rooms of the house to each other.&#x000A;&#x000A;You can see Shelf (on which is Vase (in which is Key)) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Guest Bedroom&#x000A;The room your gracious hosts gave to you for your trip. Even though it's a guest room, it could be the master of any average home.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Guest Bathroom&#x000A;The spacious bathroom attached to your bedroom, complete with a towel warmer.&#x000A;&#x000A;You can see Medicine Cabinet (in which is Pill Bottle) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Guest Bedroom&#x000A;The room your gracious hosts gave to you for your trip. Even though it's a guest room, it could be the master of any average home.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Hallway&#x000A;The space that connects the library to the main entrance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Entrance&#x000A;The grand entrance to the not-so-humble abode you've been invited to stay in for the duration of your holiday.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Downstairs Hallway&#x000A;The space that connects the many rooms of the house to each other. The entrance to the estate lies south. The grand staircase lies north. The guest bedroom lies west.&#x000A;&#x000A;You can see Shelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+      <child nodeId="node-32"/>
+      <child nodeId="node-33"/>
+      <child nodeId="node-47"/>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Grand Staircase&#x000A;You can only go up from here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Upstairs Hallway&#x000A;You find that you can only go left off of the stairs, pondering the reason for such a grand staircase.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Grand Staircase&#x000A;You can only go up from here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Downstairs Hallway&#x000A;The space that connects the many rooms of the house to each other.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Guest Bedroom&#x000A;The room your gracious hosts gave to you for your trip. Even though it's a guest room, it could be the master of any average home.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Guest Bathroom&#x000A;The spacious bathroom attached to your bedroom, complete with a towel warmer.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Entrance&#x000A;The grand entrance to the not-so-humble abode you've been invited to stay in for the duration of your holiday.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Guest Bedroom&#x000A;The room your gracious hosts gave to you for your trip. Even though it's a guest room, it could be the master of any average home.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Guest Bathroom&#x000A;The spacious bathroom attached to your bedroom, complete with a towel warmer.&#x000A;&#x000A;You can see Medicine Cabinet (in which is Pill Bottle) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Guest Bathroom&#x000A;The spacious bathroom attached to your bedroom, complete with a towel warmer.&#x000A;&#x000A;You can see Medicine Cabinet (in which is Pill Bottle) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">take pill bottle</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">x room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">x downstairs hallway</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Downstairs Hallway&#x000A;The space that connects the many rooms of the house to each other. The entrance to the estate lies south. The grand staircase lies north. The guest bedroom lies west.&#x000A;&#x000A;You can see Shelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">x shelf</command>
+    <result xml:space="preserve">You see a vase sitting on the shelf, it's a little dusty.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">x vase</command>
+    <result xml:space="preserve">You hear a faint rattling inside the vase and pour it into your hand. A key falls out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Guest Bedroom&#x000A;The room your gracious hosts gave to you for your trip. Even though it's a guest room, it could be the master of any average home. The guest bathroom lies north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Guest Bathroom&#x000A;The spacious bathroom attached to your bedroom, complete with a towel warmer.&#x000A;&#x000A;You can see Medicine Cabinet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">x medicine cabinet</command>
+    <result xml:space="preserve">Looking at it won't help you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">open medicine cabinet</command>
+    <result xml:space="preserve">You find an empty pill bottle that isn't yours. It's perscribed to one of your hosts.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">x pill bottle</command>
+    <result xml:space="preserve">The label suggests that this medicine was used for helping high blood pressure.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">x key</command>
+    <result xml:space="preserve">It looks rather old, layers of rust anf grime cover the key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">x vase</command>
+    <result xml:space="preserve">You hear a faint rattling inside the vase and pour it into your hand. A key falls out.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Guest Bedroom&#x000A;The room your gracious hosts gave to you for your trip. Even though it's a guest room, it could be the master of any average home.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Guest Bathroom&#x000A;The spacious bathroom attached to your bedroom, complete with a towel warmer.&#x000A;&#x000A;You can see Medicine Cabinet here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">open medicine cabinet</command>
+    <result xml:space="preserve">You find an empty pill bottle that isn't yours. It's perscribed to one of your hosts.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">x ledger</command>
+    <result xml:space="preserve">It seems to have pages missing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Bookcase Door&#x000A;You find a door that leads to the kitchen, though why the two connect you aren't sure.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Kitchen&#x000A;A lovely kitchen filled with windows, allowing for a grand view of the estate's gardens.&#x000A;&#x000A;You can see Chef Hat here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">wear chef hat</command>
+    <result xml:space="preserve">(first taking Chef Hat)&#x000A;It's a little big for your head.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
