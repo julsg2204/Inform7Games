@@ -1,811 +1,872 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-104">
+<Skein rootNode="node-327">
   <generator>Windows Inform 10.1.2</generator>
-  <item nodeId="node-104">
+  <item nodeId="node-327">
     <command xml:space="preserve">potatogame</command>
-    <result xml:space="preserve">potatogame&#x000A;An Interactive Fiction by Julia Wychryst&#x000A;Release 1 / Serial number 250919 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Parking Lot&#x000A; You stand outside the grounds of Tuber County's Fall Fair. While you had a great time eating snacks and playing games, you realize your trusty pets, affectionately referred to as spuddies, got lost in all the excitement. You're near your car, but you know you can't leave until all of your spuddies are found. Better start looking for Robert, Bean, and Peggy!  The parking lot is less busy than it was when you arrived; you've been here for hours.The entrance to the fair grounds lies to the north. The exit to the parking lot lies south.&#x000A;&#x000A;You can see Car (closed) here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">potatogame&#x000A;An Interactive Fiction by Julia Wychryst&#x000A;Release 1 / Serial number 250920 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Parking Lot&#x000A; You stand outside the grounds of Tuber County's Fall Fair. While you had a great time eating snacks and playing games, you realize your trusty pets, affectionately referred to as spuddies, got lost in all the excitement. You're near your car, but you know you can't leave until all of your spuddies are found. Better start looking for Robert, Bean, and Peggy! &#x000A;&#x000A;You can see Car (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-105"/>
-      <child nodeId="node-114"/>
-      <child nodeId="node-142"/>
+      <child nodeId="node-328"/>
+      <child nodeId="node-337"/>
+      <child nodeId="node-365"/>
     </children>
   </item>
-  <item nodeId="node-105">
+  <item nodeId="node-328">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Fairgrounds Entrance&#x000A;The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-106"/>
+      <child nodeId="node-329"/>
     </children>
   </item>
-  <item nodeId="node-106">
+  <item nodeId="node-329">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Food Stands&#x000A;The smell of fennel cake permeates the air, a classic scent from the fair. Other than the fennel cake stall, you see a stall for dirt burgers. The fairgrounds entrance lies to the south.&#x000A;&#x000A;You can see Fennel Cake Stall and Dirt Burger Stall here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-107"/>
-      <child nodeId="node-111"/>
+      <child nodeId="node-330"/>
+      <child nodeId="node-334"/>
     </children>
   </item>
-  <item nodeId="node-107">
+  <item nodeId="node-330">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Fairgrounds Entrance&#x000A;The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-108"/>
+      <child nodeId="node-331"/>
     </children>
   </item>
-  <item nodeId="node-108">
+  <item nodeId="node-331">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Fair Games&#x000A;The games bring back memories of visiting the fair as a young tot. The barrel roll used to be your favorite.  Funnily enough, you hear a noise coming from one of the barrels.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-109"/>
+      <child nodeId="node-332"/>
     </children>
   </item>
-  <item nodeId="node-109">
+  <item nodeId="node-332">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Fairgrounds Entrance&#x000A;The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-110"/>
+      <child nodeId="node-333"/>
     </children>
   </item>
-  <item nodeId="node-110">
+  <item nodeId="node-333">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Fair Games&#x000A;The games bring back memories of visiting the fair as a young tot. The barrel roll used to be your favorite. &#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-111">
+  <item nodeId="node-334">
     <command xml:space="preserve">x dirt box</command>
     <result xml:space="preserve">You see the top of a spuddy's head. From what you can tell, it looks like Bean.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-112"/>
+      <child nodeId="node-335"/>
     </children>
   </item>
-  <item nodeId="node-112">
+  <item nodeId="node-335">
     <command xml:space="preserve">x dirt burger stall</command>
     <result xml:space="preserve">Not the most appetizing food at the fair, but it's a staple.  You notice a box of dirt to the side of the stall, something seems to be moving inside.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-113"/>
+      <child nodeId="node-336"/>
     </children>
   </item>
-  <item nodeId="node-113">
+  <item nodeId="node-336">
     <command xml:space="preserve">x box of dirt</command>
     <result xml:space="preserve">You see the top of a spuddy's head. From what you can tell, it looks like Bean.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-114">
+  <item nodeId="node-337">
     <command xml:space="preserve">open car</command>
     <result xml:space="preserve">(Car Keys)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-115"/>
+      <child nodeId="node-338"/>
     </children>
   </item>
-  <item nodeId="node-115">
+  <item nodeId="node-338">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:&#x000A;  Car Keys&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-116"/>
+      <child nodeId="node-339"/>
     </children>
   </item>
-  <item nodeId="node-116">
+  <item nodeId="node-339">
     <command xml:space="preserve">unlock car</command>
     <result xml:space="preserve">(Car Keys with Car Keys)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-117"/>
+      <child nodeId="node-340"/>
     </children>
   </item>
-  <item nodeId="node-117">
+  <item nodeId="node-340">
     <command xml:space="preserve">open car</command>
     <result xml:space="preserve">(Car Keys)&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-118"/>
+      <child nodeId="node-341"/>
     </children>
   </item>
-  <item nodeId="node-118">
+  <item nodeId="node-341">
     <command xml:space="preserve">use car keys</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-119"/>
+      <child nodeId="node-342"/>
     </children>
   </item>
-  <item nodeId="node-119">
+  <item nodeId="node-342">
     <command xml:space="preserve">unlock car</command>
     <result xml:space="preserve">(Car Keys with Car Keys)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-120"/>
+      <child nodeId="node-343"/>
     </children>
   </item>
-  <item nodeId="node-120">
+  <item nodeId="node-343">
     <command xml:space="preserve">unlock car with car keys</command>
     <result xml:space="preserve">(Car Keys with Car Keys)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-121"/>
+      <child nodeId="node-344"/>
     </children>
   </item>
-  <item nodeId="node-121">
+  <item nodeId="node-344">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Fairgrounds Entrance&#x000A;The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-122"/>
+      <child nodeId="node-345"/>
     </children>
   </item>
-  <item nodeId="node-122">
+  <item nodeId="node-345">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Rides&#x000A;There are less rides at this year's fair, really the only functioning attraction is the barrel spin. Some haystacks sit behind the barrel spin. The fairgrounds entrance lies to the east.  You think you see something around one of the haystacks.&#x000A;&#x000A;You can see Crowbar here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-123"/>
+      <child nodeId="node-346"/>
     </children>
   </item>
-  <item nodeId="node-123">
+  <item nodeId="node-346">
     <command xml:space="preserve">take crowbar</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-124"/>
+      <child nodeId="node-347"/>
     </children>
   </item>
-  <item nodeId="node-124">
+  <item nodeId="node-347">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-125"/>
+      <child nodeId="node-348"/>
     </children>
   </item>
-  <item nodeId="node-125">
+  <item nodeId="node-348">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Fairgrounds Entrance&#x000A;The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-126"/>
+      <child nodeId="node-349"/>
     </children>
   </item>
-  <item nodeId="node-126">
+  <item nodeId="node-349">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Fair Games&#x000A;The games bring back memories of visiting the fair as a young tot. The barrel roll used to be your favorite. The fairgrounds entrance lies to the west.  Funnily enough, you hear a noise coming from one of the barrels.&#x000A;&#x000A;You can see Barrel (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-127"/>
+      <child nodeId="node-350"/>
     </children>
   </item>
-  <item nodeId="node-127">
+  <item nodeId="node-350">
     <command xml:space="preserve">x barrel</command>
     <result xml:space="preserve">You recognize the noises coming from the barrel; they belong to Robert! While you don't know how he got inside the barrel, you ponder about ways to get him out. Maybe there's a tool somewhere?  You see Robert in the barrel.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-128"/>
+      <child nodeId="node-351"/>
     </children>
   </item>
-  <item nodeId="node-128">
+  <item nodeId="node-351">
     <command xml:space="preserve">unlock barrel</command>
     <result xml:space="preserve">What do you want to unlock Barrel with?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-129"/>
+      <child nodeId="node-352"/>
     </children>
   </item>
-  <item nodeId="node-129">
+  <item nodeId="node-352">
     <command xml:space="preserve">unlock barrel with crowbar</command>
     <result xml:space="preserve">You unlock Barrel.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-130"/>
+      <child nodeId="node-353"/>
     </children>
   </item>
-  <item nodeId="node-130">
+  <item nodeId="node-353">
     <command xml:space="preserve">x robert</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-131"/>
+      <child nodeId="node-354"/>
     </children>
   </item>
-  <item nodeId="node-131">
+  <item nodeId="node-354">
     <command xml:space="preserve">x barrel</command>
     <result xml:space="preserve">You see Robert in the barrel.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-132"/>
+      <child nodeId="node-355"/>
     </children>
   </item>
-  <item nodeId="node-132">
+  <item nodeId="node-355">
     <command xml:space="preserve">take robert</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-133"/>
+      <child nodeId="node-356"/>
     </children>
   </item>
-  <item nodeId="node-133">
+  <item nodeId="node-356">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:&#x000A;  Crowbar&#x000A;  Car Keys&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-134"/>
+      <child nodeId="node-357"/>
     </children>
   </item>
-  <item nodeId="node-134">
+  <item nodeId="node-357">
     <command xml:space="preserve">x self</command>
     <result xml:space="preserve">As good-looking as ever.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-135"/>
+      <child nodeId="node-358"/>
     </children>
   </item>
-  <item nodeId="node-135">
+  <item nodeId="node-358">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Fair Games&#x000A;The games bring back memories of visiting the fair as a young tot. The barrel roll used to be your favorite. The fairgrounds entrance lies to the west. &#x000A;&#x000A;You can see Barrel (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-136"/>
+      <child nodeId="node-359"/>
     </children>
   </item>
-  <item nodeId="node-136">
+  <item nodeId="node-359">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-137"/>
+      <child nodeId="node-360"/>
     </children>
   </item>
-  <item nodeId="node-137">
+  <item nodeId="node-360">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Fairgrounds Entrance&#x000A;The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-138"/>
+      <child nodeId="node-361"/>
     </children>
   </item>
-  <item nodeId="node-138">
+  <item nodeId="node-361">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Food Stands&#x000A;The smell of fennel cake permeates the air, a classic scent from the fair. Other than the fennel cake stall, you see a stall for dirt burgers. The fairgrounds entrance lies to the south.&#x000A;&#x000A;You can see Fennel Cake Stall and Dirt Burger Stall here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-139"/>
+      <child nodeId="node-362"/>
     </children>
   </item>
-  <item nodeId="node-139">
+  <item nodeId="node-362">
     <command xml:space="preserve">x fennel cake stall</command>
     <result xml:space="preserve">You wish you could buy a fennel cake for the road, but you ran out of money in the bingo tent.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-140"/>
+      <child nodeId="node-363"/>
     </children>
   </item>
-  <item nodeId="node-140">
+  <item nodeId="node-363">
     <command xml:space="preserve">x dirt burger stall</command>
     <result xml:space="preserve">Not the most appetizing food at the fair, but it's a staple. You notice a box of dirt to the side of the stall, something seems to be moving inside.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-141"/>
+      <child nodeId="node-364"/>
     </children>
   </item>
-  <item nodeId="node-141">
+  <item nodeId="node-364">
     <command xml:space="preserve">x dirt box</command>
     <result xml:space="preserve">I only understood you as far as wanting to examine Dirt Burger Stall.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-142">
+  <item nodeId="node-365">
     <command xml:space="preserve">x car</command>
-    <result xml:space="preserve">(Car Keys)&#x000A;You see nothing special about Car Keys.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You need to open the door if you want to put anything inside.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-143"/>
-      <child nodeId="node-161"/>
+      <child nodeId="node-366"/>
+      <child nodeId="node-369"/>
+      <child nodeId="node-418"/>
     </children>
   </item>
-  <item nodeId="node-143">
+  <item nodeId="node-366">
     <command xml:space="preserve">Open car door</command>
     <result xml:space="preserve">I only understood you as far as wanting to open Car.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-144"/>
+      <child nodeId="node-367"/>
     </children>
   </item>
-  <item nodeId="node-144">
+  <item nodeId="node-367">
     <command xml:space="preserve">open car door</command>
     <result xml:space="preserve">I only understood you as far as wanting to open Car.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-145"/>
+      <child nodeId="node-368"/>
     </children>
   </item>
-  <item nodeId="node-145">
+  <item nodeId="node-368">
     <command xml:space="preserve">open car</command>
     <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-161">
+  <item nodeId="node-369">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Fairgrounds Entrance&#x000A;The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east. The parking lot lies south.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-162"/>
+      <child nodeId="node-370"/>
     </children>
   </item>
-  <item nodeId="node-162">
+  <item nodeId="node-370">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Food Stands&#x000A;The smell of fennel cake permeates the air, a classic scent from the fair. Other than the fennel cake stall, you see a stall for dirt burgers. The fairgrounds entrance lies to the south.&#x000A;&#x000A;You can see Fennel Cake Stall, Seed Burger Stall and a Box of Dirt (in which is a pile of dirt) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-163"/>
+      <child nodeId="node-371"/>
     </children>
   </item>
-  <item nodeId="node-163">
+  <item nodeId="node-371">
     <command xml:space="preserve">x box of dirt</command>
     <result xml:space="preserve">It's a box  full of dirt. It's possible that something else might be deeper in the dirt .&#x000A;&#x000A;In the Box of Dirt is a pile of dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-164"/>
+      <child nodeId="node-372"/>
     </children>
   </item>
-  <item nodeId="node-164">
+  <item nodeId="node-372">
     <command xml:space="preserve">x dirt</command>
     <result xml:space="preserve">(the Box of Dirt)&#x000A;It's a box .&#x000A;&#x000A;In the Box of Dirt is a pile of dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-165"/>
+      <child nodeId="node-373"/>
     </children>
   </item>
-  <item nodeId="node-165">
+  <item nodeId="node-373">
     <command xml:space="preserve">x pile of dirt</command>
     <result xml:space="preserve">A heap of nutrient-rich dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-166"/>
+      <child nodeId="node-374"/>
     </children>
   </item>
-  <item nodeId="node-166">
+  <item nodeId="node-374">
     <command xml:space="preserve">look in dirt</command>
     <result xml:space="preserve">(the Box of Dirt)&#x000A;In the Box of Dirt is a pile of dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-167"/>
+      <child nodeId="node-375"/>
     </children>
   </item>
-  <item nodeId="node-167">
+  <item nodeId="node-375">
     <command xml:space="preserve">look in pile of dirt</command>
     <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-168"/>
+      <child nodeId="node-376"/>
     </children>
   </item>
-  <item nodeId="node-168">
+  <item nodeId="node-376">
     <command xml:space="preserve">search pile of dirt</command>
     <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-169"/>
+      <child nodeId="node-377"/>
     </children>
   </item>
-  <item nodeId="node-169">
+  <item nodeId="node-377">
     <command xml:space="preserve">x pile of dirt</command>
     <result xml:space="preserve">A heap of nutrient-rich dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-170"/>
+      <child nodeId="node-378"/>
     </children>
   </item>
-  <item nodeId="node-170">
+  <item nodeId="node-378">
     <command xml:space="preserve">x dit</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-171"/>
+      <child nodeId="node-379"/>
     </children>
   </item>
-  <item nodeId="node-171">
+  <item nodeId="node-379">
     <command xml:space="preserve">x dirt</command>
     <result xml:space="preserve">(the Box of Dirt)&#x000A;It's a box .&#x000A;&#x000A;In the Box of Dirt is a pile of dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-172"/>
+      <child nodeId="node-380"/>
     </children>
   </item>
-  <item nodeId="node-172">
+  <item nodeId="node-380">
     <command xml:space="preserve">look in dirt</command>
     <result xml:space="preserve">(the Box of Dirt)&#x000A;In the Box of Dirt is a pile of dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-173"/>
+      <child nodeId="node-381"/>
     </children>
   </item>
-  <item nodeId="node-173">
+  <item nodeId="node-381">
     <command xml:space="preserve">look in pile of dirt</command>
     <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-174"/>
+      <child nodeId="node-382"/>
     </children>
   </item>
-  <item nodeId="node-174">
+  <item nodeId="node-382">
     <command xml:space="preserve">x box of dirt</command>
     <result xml:space="preserve">It's a box .&#x000A;&#x000A;In the Box of Dirt is a pile of dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-175"/>
+      <child nodeId="node-383"/>
     </children>
   </item>
-  <item nodeId="node-175">
+  <item nodeId="node-383">
     <command xml:space="preserve">x pile of dirt</command>
     <result xml:space="preserve">A heap of nutrient-rich dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-176"/>
+      <child nodeId="node-384"/>
     </children>
   </item>
-  <item nodeId="node-176">
+  <item nodeId="node-384">
     <command xml:space="preserve">look in pile of dirt</command>
     <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-177"/>
+      <child nodeId="node-385"/>
     </children>
   </item>
-  <item nodeId="node-177">
+  <item nodeId="node-385">
     <command xml:space="preserve">search dirt</command>
     <result xml:space="preserve">(the Box of Dirt)&#x000A;In the Box of Dirt is a pile of dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-178"/>
+      <child nodeId="node-386"/>
     </children>
   </item>
-  <item nodeId="node-178">
+  <item nodeId="node-386">
     <command xml:space="preserve">x dirt</command>
     <result xml:space="preserve">(the Box of Dirt)&#x000A;It's a box .&#x000A;&#x000A;In the Box of Dirt is a pile of dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-179"/>
+      <child nodeId="node-387"/>
     </children>
   </item>
-  <item nodeId="node-179">
+  <item nodeId="node-387">
     <command xml:space="preserve">search dirt</command>
     <result xml:space="preserve">(the Box of Dirt)&#x000A;In the Box of Dirt is a pile of dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-180"/>
+      <child nodeId="node-388"/>
     </children>
   </item>
-  <item nodeId="node-180">
+  <item nodeId="node-388">
     <command xml:space="preserve">take dirt</command>
     <result xml:space="preserve">(the Box of Dirt)&#x000A;You don't have the means to carry dirt. Why would you want to?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-181"/>
+      <child nodeId="node-389"/>
     </children>
   </item>
-  <item nodeId="node-181">
+  <item nodeId="node-389">
     <command xml:space="preserve">x dirt</command>
     <result xml:space="preserve">(the Box of Dirt)&#x000A;It's a box .&#x000A;&#x000A;In the Box of Dirt is a pile of dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-182"/>
+      <child nodeId="node-390"/>
     </children>
   </item>
-  <item nodeId="node-182">
+  <item nodeId="node-390">
     <command xml:space="preserve">x pile of dirt</command>
     <result xml:space="preserve">A heap of nutrient-rich dirt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-183"/>
+      <child nodeId="node-391"/>
     </children>
   </item>
-  <item nodeId="node-183">
+  <item nodeId="node-391">
     <command xml:space="preserve">look in pile of dirt</command>
     <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-184"/>
+      <child nodeId="node-392"/>
     </children>
   </item>
-  <item nodeId="node-184">
+  <item nodeId="node-392">
     <command xml:space="preserve">search pile of dirt</command>
     <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-185"/>
+      <child nodeId="node-393"/>
     </children>
   </item>
-  <item nodeId="node-185">
+  <item nodeId="node-393">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Food Stands&#x000A;The smell of fennel cake permeates the air, a classic scent from the fair. Other than the fennel cake stall, you see a stall for dirt burgers. The fairgrounds entrance lies to the south.&#x000A;&#x000A;You can see Fennel Cake Stall, Seed Burger Stall and a Box of Dirt (in which is a pile of dirt) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-186"/>
+      <child nodeId="node-394"/>
     </children>
   </item>
-  <item nodeId="node-186">
+  <item nodeId="node-394">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Fairgrounds Entrance&#x000A;The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east. The parking lot lies south.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-187"/>
+      <child nodeId="node-395"/>
     </children>
   </item>
-  <item nodeId="node-187">
+  <item nodeId="node-395">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Rides&#x000A;There are less rides at this year's fair, really the only functioning attraction is the barrel spin. Some haystacks sit behind the barrel spin. The fairgrounds entrance lies to the west.  You think you see something around one of the haystacks.&#x000A;&#x000A;You can see a Crowbar and Haystacks here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-188"/>
+      <child nodeId="node-396"/>
     </children>
   </item>
-  <item nodeId="node-188">
+  <item nodeId="node-396">
     <command xml:space="preserve">x crobar</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-189"/>
+      <child nodeId="node-397"/>
     </children>
   </item>
-  <item nodeId="node-189">
+  <item nodeId="node-397">
     <command xml:space="preserve">x crowbar</command>
     <result xml:space="preserve">A stray crowbar lies next to a booth.  It might be useful for something.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-190"/>
+      <child nodeId="node-398"/>
     </children>
   </item>
-  <item nodeId="node-190">
+  <item nodeId="node-398">
     <command xml:space="preserve">take crowbar</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-191"/>
+      <child nodeId="node-399"/>
     </children>
   </item>
-  <item nodeId="node-191">
+  <item nodeId="node-399">
     <command xml:space="preserve">x haystacks</command>
     <result xml:space="preserve">You stare at the haystacks, debating whether or not you should dig through them.  Who could possibly need this much hay? &#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-192"/>
+      <child nodeId="node-400"/>
     </children>
   </item>
-  <item nodeId="node-192">
+  <item nodeId="node-400">
     <command xml:space="preserve">x haystacks</command>
     <result xml:space="preserve">You determine the stack you want to dive into, hoping to find your lost spuddy. Money for a fennel cake would work too.  They could've had a hay ride with all of this hay. &#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-193"/>
+      <child nodeId="node-401"/>
     </children>
   </item>
-  <item nodeId="node-193">
+  <item nodeId="node-401">
     <command xml:space="preserve">x haystacks</command>
     <result xml:space="preserve">At the very bottom of the stack, you find Peggy.  You'll be finding hay in random places for weeks to come. &#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-194"/>
+      <child nodeId="node-402"/>
     </children>
   </item>
-  <item nodeId="node-194">
+  <item nodeId="node-402">
     <command xml:space="preserve">take peggy</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-195"/>
+      <child nodeId="node-403"/>
     </children>
   </item>
-  <item nodeId="node-195">
+  <item nodeId="node-403">
     <command xml:space="preserve">x hay</command>
     <result xml:space="preserve">That's a lot of hay. &#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-196"/>
+      <child nodeId="node-404"/>
     </children>
   </item>
-  <item nodeId="node-196">
+  <item nodeId="node-404">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:&#x000A;  Peggy&#x000A;  a Crowbar&#x000A;  Car Keys&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-197"/>
+      <child nodeId="node-405"/>
     </children>
   </item>
-  <item nodeId="node-197">
+  <item nodeId="node-405">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Fairgrounds Entrance&#x000A;The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east. The parking lot lies south.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-198"/>
+      <child nodeId="node-406"/>
     </children>
   </item>
-  <item nodeId="node-198">
+  <item nodeId="node-406">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Food Stands&#x000A;The smell of fennel cake permeates the air, a classic scent from the fair. Other than the fennel cake stall, you see a stall for dirt burgers. The fairgrounds entrance lies to the south.&#x000A;&#x000A;You can see Fennel Cake Stall, Seed Burger Stall and a Box of Dirt (in which is a pile of dirt) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-199"/>
+      <child nodeId="node-407"/>
     </children>
   </item>
-  <item nodeId="node-199">
+  <item nodeId="node-407">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Fairgrounds Entrance&#x000A;The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east. The parking lot lies south.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-200"/>
+      <child nodeId="node-408"/>
     </children>
   </item>
-  <item nodeId="node-200">
+  <item nodeId="node-408">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">Fair Games&#x000A;The games bring back memories of visiting the fair as a young tot. The barrel roll used to be your favorite. The fairgrounds entrance lies to the east.  Funnily enough, you hear a noise coming from one of the barrels.&#x000A;&#x000A;You can see Barrel (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-201"/>
+      <child nodeId="node-409"/>
     </children>
   </item>
-  <item nodeId="node-201">
+  <item nodeId="node-409">
     <command xml:space="preserve">x barrel</command>
     <result xml:space="preserve">You recognize the noises coming from the barrel; they belong to Robert! While you don't know how he got inside the barrel, you ponder about ways to get him out. Maybe there's a tool somewhere?  You see Robert in the barrel.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-202"/>
+      <child nodeId="node-410"/>
     </children>
   </item>
-  <item nodeId="node-202">
+  <item nodeId="node-410">
     <command xml:space="preserve">open barrel with crowbar</command>
     <result xml:space="preserve">You manage to break open the barrel, freeing Robert from his confinement. He leaps toward you and circles your feet, happy to be back with his owner. You watch as Robert runs back towards the entrance, presumably heading to your car.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-203"/>
+      <child nodeId="node-411"/>
     </children>
   </item>
-  <item nodeId="node-203">
+  <item nodeId="node-411">
     <command xml:space="preserve">take robert</command>
     <result xml:space="preserve">I don't suppose Robert would care for that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-204"/>
+      <child nodeId="node-412"/>
     </children>
   </item>
-  <item nodeId="node-204">
+  <item nodeId="node-412">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">Fairgrounds Entrance&#x000A;The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east. The parking lot lies south.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-205"/>
+      <child nodeId="node-413"/>
     </children>
   </item>
-  <item nodeId="node-205">
+  <item nodeId="node-413">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Parking Lot&#x000A; The parking lot is less busy than it was when you arrived; you've been here for hours.The entrance to the fair grounds lies to the north. The exit to the parking lot lies south.&#x000A;&#x000A;You can see Car (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-206"/>
+      <child nodeId="node-414"/>
     </children>
   </item>
-  <item nodeId="node-206">
+  <item nodeId="node-414">
     <command xml:space="preserve">unlock car</command>
     <result xml:space="preserve">What do you want to unlock Car with?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-207"/>
+      <child nodeId="node-415"/>
     </children>
   </item>
-  <item nodeId="node-207">
+  <item nodeId="node-415">
     <command xml:space="preserve">unlock car with car keys</command>
     <result xml:space="preserve">(Car with Car Keys)&#x000A;You unlock Car.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-208"/>
+      <child nodeId="node-416"/>
     </children>
   </item>
-  <item nodeId="node-208">
+  <item nodeId="node-416">
     <command xml:space="preserve">put peggy in car</command>
     <result xml:space="preserve">(Car Keys)&#x000A;That can't contain things.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-209"/>
+      <child nodeId="node-417"/>
     </children>
   </item>
-  <item nodeId="node-209">
+  <item nodeId="node-417">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">Exit&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-418">
+    <command xml:space="preserve">open car</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-419"/>
+    </children>
+  </item>
+  <item nodeId="node-419">
+    <command xml:space="preserve">unlock car with hatchback keys</command>
+    <result xml:space="preserve">You unlock Car.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-420"/>
+    </children>
+  </item>
+  <item nodeId="node-420">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Hatchback Keys&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-421"/>
+    </children>
+  </item>
+  <item nodeId="node-421">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Parking Lot&#x000A; The parking lot is less busy than it was when you arrived; you've been here for hours. The entrance to the fair grounds lies to the north. The exit to the parking lot lies south.&#x000A;&#x000A;You can see Car (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-422"/>
+    </children>
+  </item>
+  <item nodeId="node-422">
+    <command xml:space="preserve">discard</command>
+    <result xml:space="preserve">(Hatchback Keys)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-423"/>
+    </children>
+  </item>
+  <item nodeId="node-423">
+    <command xml:space="preserve">take hatchback keys</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-424"/>
+    </children>
+  </item>
+  <item nodeId="node-424">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You want to leave without your spuddies? That's reckless abandonment, friend.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
