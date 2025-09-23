@@ -1,18 +1,18 @@
 "potatogame" by Julia Wychryst
 
-Parking Lot is a room. "[if unvisited] You stand outside the grounds of Tuber County's Fall Fair. While you had a great time eating snacks and playing games, you realize your trusty pets, affectionately referred to as spuddies, got lost in all the excitement. You're near your car, but you know you can't leave until all of your spuddies are found. Better start looking for Robert, Bean, and Peggy! [otherwise] The parking lot is less busy than it was when you arrived; you've been here for hours. The entrance to the fair grounds lies to the north. The exit to the parking lot lies south."
+Parking Lot is a room. "[if unvisited] You stand outside the grounds of Tuber County's Fall Fair. While you had a great time eating snacks and playing games, you realize your trusty pets, affectionately referred to as spuddies, got lost in all the excitement. You're near your car, but you know you can't leave until all of your spuddies are found. Better start looking for Robert, Bean, and Peggy! The entrance to the fair grounds lies to the north. The exit to the parking lot lies south. [otherwise] The parking lot is less busy than it was when you arrived; you've been here for hours. The entrance to the fair grounds lies to the north. The exit to the parking lot lies south."
 
 
 Exit is a room. "After spending hours at the fair, you can finally leave with all of your spuddies back in your care. With a glance back to the fair, you drive off and head home."
 Exit is south of Parking Lot.
 Instead of going to exit:
-	if peggy is inside car:
+	if peggy is inside car and spuddy is inside car:
 		end the story saying "After spending hours at the fair, you can finally leave with all of your spuddies back in your care. With a glance back to the fair, you drive off and head home.";
 	otherwise:
 		say "You want to leave without your spuddies? That's reckless abandonment, friend."
 
 
-Car is a locked, closed, openable container.
+Car is a locked, closed, openable, enterable container.
 Car is in Parking Lot.
 The player is carrying Hatchback Keys.
 The Hatchback Keys unlocks the Car.
@@ -41,6 +41,7 @@ Instead of examining Fennel Cake Stall, say "You wish you could buy a fennel cak
 Seed Burger Stall is a thing.
 Seed Burger Stall is fixed in place in Food Stands.
 Instead of examining Seed Burger Stall, say "Not the most appetizing food at the fair, but it's a staple. [if unvisited] You notice a box of dirt to the side of the stall, something seems to be moving inside."
+[change description of seed burger stall]
 [Box of Dirt is an openable closed container in Food Stands. Box of Dirt is scenery.]
 The Box of Dirt is an open container in Food Stands. The description is "It's a box [one of] full of dirt. It's possible that something else might be deeper in the dirt [or][stopping]."
 The pile of dirt is in the box. The description is "A heap of nutrient-rich dirt." Understand "nutrient-rich" as the dirt.
@@ -52,7 +53,6 @@ Instead of searching the box of dirt for the first time:
 Instead of searching the pile of dirt for the first time:
 	say "Buried beneath the dirt, you find one of your missing spuddies.";
 	now the spuddy is in the box.
-[It won't say that something else is below the dirt and am not sure as to why. I found an example of hidden items on the Inform 7 handbook and used that as a base but it isn't entirely working.]
 
 
 
