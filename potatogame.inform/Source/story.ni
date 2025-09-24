@@ -29,6 +29,7 @@ Does the player mean locking Hatchback Keys with Hatchback Keys: it is very unli
 
 Fairgrounds Entrance is a room. "The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east. The parking lot lies south."
 Fairgrounds Entrance is north of Parking Lot.
+[maybe find something to do at the entrance]
 
 
 Food Stands is a room. "The smell of fennel cake permeates the air, a classic scent from the fair. Other than the fennel cake stall, you see a stall for dirt burgers. The fairgrounds entrance lies to the south."
@@ -36,13 +37,18 @@ Food Stands is north of Fairgrounds Entrance.
 
 Fennel Cake Stall is a thing.
 Fennel Cake Stall is fixed in place in Food Stands.
-Instead of examining Fennel Cake Stall, say "You wish you could buy a fennel cake for the road, but you ran out of money at the bingo tent."
+Instead of examining Fennel Cake Stall, say "You wish you could buy a fennel cake for the road, but you ran out of money at the bingo tent. While you can't buy a fennel cake, you see the counter has samples for tasting."
+Counter is a thing.
+Counter is in Food Stands.
+Fennel Cake Sample is an edible thing.
+Fennel Cake Sample is on Counter.
+Understand "sample" as Fennel Cake Sample.
+Instead of examining Fennel Cake Sample, say "The best fair food you've ever tasted. It's a delicacy. No matter how many times you try to make it at home, it never tastes the same."
+Instead of eating Fennel Cake Sample, say "You wish you could have more of this delectable treat, but there's a sign that says 'Limit of One Sample Per Person'."
 
 Seed Burger Stall is a thing.
 Seed Burger Stall is fixed in place in Food Stands.
-Instead of examining Seed Burger Stall, say "Not the most appetizing food at the fair, but it's a staple. [if unvisited] You notice a box of dirt to the side of the stall, something seems to be moving inside."
-[change description of seed burger stall]
-[Box of Dirt is an openable closed container in Food Stands. Box of Dirt is scenery.]
+Instead of examining Seed Burger Stall, say "Not the most appetizing food at the fair, but it's a staple."
 The Box of Dirt is an open container in Food Stands. The description is "It's a box [one of] full of dirt. It's possible that something else might be deeper in the dirt [or][stopping]."
 The pile of dirt is in the box. The description is "A heap of nutrient-rich dirt." Understand "nutrient-rich" as the dirt.
 Instead of taking the dirt:
@@ -86,7 +92,19 @@ Instead of examining Haystacks:
 		now Peggy is in Rides.
 
 
-Bingo Tent is a room. "You return to the tent in which you lost a fair share of money. It's your favorite spot of the entire fair, so much so that the volunteers recognize you."
+Bingo Tent is a room. "You return to the tent in which you lost a fair share of money. It's your favorite spot of the entire fair, so much so that the volunteers recognize you. The fair games are south."
 Bingo Tent is north of Fair Games.
-[find something to do in bingo tent]
+Table is a thing.
+Instead of examining Table, say "The same plastic tables they've been using for years. They look more disgusting each time you see them. Maybe they'll buy new tables for the next fair."
+Table is in Bingo Tent.
+Bingo Card is a thing.
+Bingo Card is on Table.
+Understand "card" as Bingo Card.
+Playbingo is a number that varies. Playbingo is 0.
+Instead of examining Bingo Card:
+	increase Playbingo by 1;
+	say "[if Playbingo is 1] You see an abandoned bingo card lying on the table. You take a quick glance around the tent to see if the card's owner is near. You don't see anyone near this card. Do you play? [end if][if Playbingo is 2] Against your better judgement, you decide to play the abandoned card. After all, it's free to you. Lucky for you, the new round just started. [end if][if Playbingo is 3] The bingo caller starts rattling off numbers. To your surprise, all of the numbers called are on your card. [end if][if Playbingo is 4] As more numbers are called, you start to sweat in anticipation of winning. You're only one number from bingo. It's a race to the finish between yourself and the old broads that stalk the tent. [end if][if Playbingo is 5] The caller shouts the next number, one that isn't on your card. To your horror, one of the broads shouts 'BINGO!' at the top of her shriveled lungs. Your head smacks the table as you slouch forward in defeat. [end if][one of] You can't be trusted at the bingo tent. [or] The numbers haunt you in your sleep. [or] So much money spent at the tent. [or] Maybe you should try a different game at the fair. [or] It's a good thing this fair only happens once a year. [at random]";
+	if Playbingo is 5:
+		now Bingo Card is in Bingo Tent.
+
 [add some rides/stuff to interact with attached to other areas]
