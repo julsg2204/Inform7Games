@@ -29,7 +29,7 @@ Does the player mean locking Hatchback Keys with Hatchback Keys: it is very unli
 
 Fairgrounds Entrance is a room. "The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east. The parking lot lies south."
 Fairgrounds Entrance is north of Parking Lot.
-[maybe find something to do at the entrance]
+[maybe find something to do at the entrance; ticket booth? balloon guy?]
 
 
 Food Stands is a room. "The smell of fennel cake permeates the air, a classic scent from the fair. Other than the fennel cake stall, you see a stall for dirt burgers. The fairgrounds entrance lies to the south."
@@ -59,7 +59,6 @@ Instead of searching the box of dirt for the first time:
 Instead of searching the pile of dirt for the first time:
 	say "Buried beneath the dirt, you find one of your missing spuddies.";
 	now the spuddy is in the box.
-
 
 
 Fair Games is a room. "The games bring back memories of visiting the fair as a young tot. The barrel roll used to be your favorite. The fairgrounds entrance lies to the east. The bingo tent lies to the north. [if unvisited] Funnily enough, you hear a noise coming from one of the barrels."
