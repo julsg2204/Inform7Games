@@ -1,4 +1,4 @@
-"potatogame" by Julia Wychryst
+"Spuddy Rescue" by Julia Wychryst
 
 Parking Lot is a room. "[if unvisited] You stand outside the grounds of Tuber County's Fall Fair. While you had a great time eating snacks and playing games, you realize your trusty pets, affectionately referred to as spuddies, got lost in all the excitement. You're near your car, but you know you can't leave until all of your spuddies are found. Better start looking for Robert, Bean, and Peggy! The entrance to the fair grounds lies to the north. The exit to the parking lot lies south. [otherwise] The parking lot is less busy than it was when you arrived; you've been here for hours. The entrance to the fair grounds lies to the north. The exit to the parking lot lies south."
 
@@ -29,6 +29,11 @@ Does the player mean locking Hatchback Keys with Hatchback Keys: it is very unli
 
 Fairgrounds Entrance is a room. "The entrance to the annual fair, it's a much larger than you remembered it. The food stands are to the north. The fair games are to the west. The rides are to the east. The parking lot lies south."
 Fairgrounds Entrance is north of Parking Lot.
+Balloon Cart is a container. Balloon Cart is fixed in place in Fairgrounds Entrance.
+Understand "cart" as Balloon Cart.
+Balloon Animal is a thing. Balloon Animal is in Balloon Cart.
+Instead of examining Balloon Cart, say "The trusty balloon cart returned for this year's fair. Each person receives a complimentary balloon animal upon entry, but you were given one earlier.  Unfortunately, you lost it when your spuddies ran away. You could take another, it's not like there's a volunteer currently manning the cart."
+Instead of examining Balloon Animal, say "The balloon animal calls to you, wanting to be free of its restraints to the cart. No, it can't actually speak, but you're trying to convince yourself to take the little guy. Maybe you could give it a name."
 [maybe find something to do at the entrance; ticket booth? balloon guy?]
 
 
