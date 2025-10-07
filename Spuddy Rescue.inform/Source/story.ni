@@ -82,7 +82,7 @@ Report unlocking Barrel with Crowbar:
 Instead of examining Robert, say "He's a little rascal, always finding ways to cause mischief. He is tiny but he is mighty."
 
 
-Rides is a room. "There are less rides at this year's fair, really the only functioning attraction is the barrel spin. Some haystacks sit behind the barrel spin. The fairgrounds entrance lies to the west. [if unvisited] You think you see something around one of the haystacks."
+Rides is a room. "There are less rides at this year's fair, really the only functioning attraction is the barrel spin. Some haystacks sit behind the barrel spin. The fairgrounds entrance lies to the west. The porta potties lie to the north. [if unvisited] You think you see something around one of the haystacks."
 Rides is east of Fairgrounds Entrance.
 Peggy is an object.
 The description of Peggy is "One of your lost spuddies who found herself inside the haystack. She must've fallen asleep in the stack, but she stirs when you find her."
@@ -110,5 +110,13 @@ Instead of examining Bingo Card:
 	say "[if Playbingo is 1] You see an abandoned bingo card lying on the table. You take a quick glance around the tent to see if the card's owner is near. You don't see anyone near this card. Do you play? [end if][if Playbingo is 2] Against your better judgement, you decide to play the abandoned card. After all, it's free to you. Lucky for you, the new round just started. [end if][if Playbingo is 3] The bingo caller starts rattling off numbers. To your surprise, all of the numbers called are on your card. [end if][if Playbingo is 4] As more numbers are called, you start to sweat in anticipation of winning. You're only one number from bingo. It's a race to the finish between yourself and the old broads that stalk the tent. [end if][if Playbingo is 5] The caller shouts the next number, one that isn't on your card. To your horror, one of the broads shouts 'BINGO!' at the top of her shriveled lungs. Your head smacks the table as you slouch forward in defeat. [end if][one of] You can't be trusted at the bingo tent. [or] The numbers haunt you in your sleep. [or] So much money spent at the tent. [or] Maybe you should try a different game at the fair. [or] It's a good thing this fair only happens once a year. [at random]";
 	if Playbingo is 5:
 		now Bingo Card is in Bingo Tent.
+
+
+Porta Potties is a room. "The only area of the fair that has more traction than the food stalls, which isn't surprising. The smell from the portable toilets wafts through the air, and you gag from the stench. You told yourself you wouldn't visit this part of the fair, yet here you are."
+Porta Potties is north of Rides.
+Toilet Stall is a thing.
+Toilet Stall is fixed in place in Porta Potties.
+Instead of examining Toilet Stall, say "You see an unoccupied stall towards the end of the line. The thought of touching the door disgusts you, but at least there's a sanitization stand next to the stall. You move closer to the stall, only to see that it's out of order. You don't want to know why it's out of order, but you're sure there's a good reason."
+
 
 [add some rides/stuff to interact with attached to other areas]
