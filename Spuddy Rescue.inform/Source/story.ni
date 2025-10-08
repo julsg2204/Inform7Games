@@ -120,5 +120,7 @@ Toilet Stall is a thing.
 Toilet Stall is fixed in place in Porta Potties.
 Instead of examining Toilet Stall, say "You see an unoccupied stall towards the end of the line. The thought of touching the door disgusts you, but at least there's a sanitization stand next to the stall. You move closer to the stall, only to see that it's out of order. You don't want to know why it's out of order, but you're sure there's a good reason."
 
+Release along with a website.
+
 
 [add some rides/stuff to interact with attached to other areas]
