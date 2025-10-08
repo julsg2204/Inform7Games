@@ -37,7 +37,7 @@ Instead of examining Balloon Animal, say "The balloon animal calls to you, wanti
 [maybe find something to do at the entrance; ticket booth? balloon guy?]
 
 
-Food Stands is a room. "The smell of fennel cake permeates the air, a classic scent from the fair. Other than the fennel cake stall, you see a stall for dirt burgers. The fairgrounds entrance lies to the south."
+Food Stands is a room. "The smell of fennel cake permeates the air, a classic scent from the fair. Other than the fennel cake stall, you see a stall for dirt burgers. The fairgrounds entrance lies to the south. The bingo tent lies to the west. The porta potties lie to the east."
 Food Stands is north of Fairgrounds Entrance.
 
 Fennel Cake Stall is a thing.
@@ -96,8 +96,9 @@ Instead of examining Haystacks:
 		now Peggy is in Rides.
 
 
-Bingo Tent is a room. "You return to the tent in which you lost a fair share of money. It's your favorite spot of the entire fair, so much so that the volunteers recognize you. The fair games are south."
+Bingo Tent is a room. "You return to the tent in which you lost a fair share of money. It's your favorite spot of the entire fair, so much so that the volunteers recognize you. The fair games are south. The food stands are east."
 Bingo Tent is north of Fair Games.
+Bingo Tent is west of Food Stands.
 Table is a thing.
 Instead of examining Table, say "The same plastic tables they've been using for years. They look more disgusting each time you see them. Maybe they'll buy new tables for the next fair."
 Table is in Bingo Tent.
@@ -112,8 +113,9 @@ Instead of examining Bingo Card:
 		now Bingo Card is in Bingo Tent.
 
 
-Porta Potties is a room. "The only area of the fair that has more traction than the food stalls, which isn't surprising. The smell from the portable toilets wafts through the air, and you gag from the stench. You told yourself you wouldn't visit this part of the fair, yet here you are."
+Porta Potties is a room. "The only area of the fair that has more traction than the food stalls, which isn't surprising. The smell from the portable toilets wafts through the air, and you gag from the stench. You told yourself you wouldn't visit this part of the fair, yet here you are. The rides are south. The food stands are east."
 Porta Potties is north of Rides.
+Porta Potties is east of Food Stands.
 Toilet Stall is a thing.
 Toilet Stall is fixed in place in Porta Potties.
 Instead of examining Toilet Stall, say "You see an unoccupied stall towards the end of the line. The thought of touching the door disgusts you, but at least there's a sanitization stand next to the stall. You move closer to the stall, only to see that it's out of order. You don't want to know why it's out of order, but you're sure there's a good reason."

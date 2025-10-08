@@ -28,7 +28,7 @@
   </item>
   <item nodeId="node-221">
     <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Rides&#x000A;There are less rides at this year's fair, really the only functioning attraction is the barrel spin. Some haystacks sit behind the barrel spin. The fairgrounds entrance lies to the west.  You think you see something around one of the haystacks.&#x000A;&#x000A;You can see a Crowbar and Haystacks here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Rides&#x000A;There are less rides at this year's fair, really the only functioning attraction is the barrel spin. Some haystacks sit behind the barrel spin. The fairgrounds entrance lies to the west. The porta potties lie to the north.  You think you see something around one of the haystacks.&#x000A;&#x000A;You can see a Crowbar and Haystacks here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -46,11 +46,12 @@
   </item>
   <item nodeId="node-223">
     <command xml:space="preserve">x toilet stall</command>
-    <result xml:space="preserve">You see an unoccupied stall towards the end of the line. The thought of touching the door disgusts you, but at least there's a sanitization stand next to the stall.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You see an unoccupied stall towards the end of the line. The thought of touching the door disgusts you, but at least there's a sanitization stand next to the stall. You move closer to the stall, only to see that it's out of order. You don't want to know why it's out of order, but you're sure there's a good reason.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-224"/>
+      <child nodeId="node-227"/>
     </children>
   </item>
   <item nodeId="node-224">
@@ -74,6 +75,12 @@
   <item nodeId="node-226">
     <command xml:space="preserve">enter toilet stall</command>
     <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">take toilet stall</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
